@@ -1,0 +1,159 @@
+﻿header {
+    background: #fff;
+    padding: 10px 0px 2px;
+    box-shadow: 0px 3px 3px #ccc;
+}
+
+.filter {
+    background: #fff;
+    padding: 10px 0px;
+    box-shadow: 0px 3px 3px #ccc;
+}
+
+.filterarea {
+    width: 100%;
+    float: left;
+}
+
+    .filterarea > ul {
+        list-style: none;
+        margin: 0;
+        padding: 10px 0px;
+        width: 100%;
+        border-top: 1px solid #ccc;
+    }
+
+        .filterarea > ul > li {
+            list-style: none;
+            margin: 0;
+            float: left;
+            padding: 0px 20px;
+            width: 20%;
+        }
+
+.bgareanew.bgareanew {
+    background-color: #e4e4e4 !important;
+    padding: 0px 10px;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid #000 !important;
+    text-align: left !important;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+li.dropdown-submenu {
+    padding: 0;
+    border-bottom: 1px solid #ececec;
+}
+
+    li.dropdown-submenu a {
+        display: block;
+        padding: 7px 10px;
+        text-decoration: none;
+    }
+
+        li.dropdown-submenu a:hover {
+            background: #4296a5;
+            color: #fff;
+        }
+
+.dropdown-toggle::after {
+    position: absolute;
+    right: 10px;
+    top: 17px;
+}
+
+.applybtn {
+    margin: 32px 0px 0;
+}
+
+.submitbtn {
+    background: #29bbae !important;
+    color: #fff !important;
+}
+
+.text-primarycolor {
+    color: #404040 !important;
+}
+
+.midlevel label {
+    padding-top: 5px;
+    margin-right: 20px;
+}
+
+.midlevel {
+    width: 100%;
+    float: left;
+    background: #fff;
+    box-shadow: 0px 3px 3px #ccc;
+    margin-bottom: 20px;
+    padding: 19px 20px 0;
+}
+
+.fieldgroup {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+    .fieldgroup > .custom-file, .fieldgroup > .custom-select, .fieldgroup > .form-control {
+        position: relative;
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        width: 1%;
+        margin-bottom: 0;
+    }
+
+#freq span.btn {
+    float: left;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #ececec;
+    padding: 10px 20px;
+}
+
+span.btn:hover {
+    background: #29bbae;
+    color: #fff;
+    border-radius: 0;
+}
+
+.w2ui-popup .w2ui-popup-no-buttons {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    bottom: 0 !important;
+    padding: 30px 10px !important;
+}
+.dropdown-submenu {
+    position: relative;
+}
+
+    .dropdown-submenu .dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-top: -1px;
+    }
+
+.select {
+    width: 100%;
+    min-width: 10ch;
+    max-width: 20ch;
+    border: 1px solid var(--select-border);
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #fff;
+    background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
+
